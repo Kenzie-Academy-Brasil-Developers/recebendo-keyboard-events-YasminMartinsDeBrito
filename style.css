@@ -1,0 +1,23 @@
+#box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+   
+}
+img{
+    background-image: url(./hellena.jpeg);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-position: center; 
+    background-size: cover;
+    border-radius: 100%;
+    border: #ff506e solid 4px;
+    box-shadow: 4px 2px 13px 8px;
+}
+
+body{
+    background-image: linear-gradient(to right,#ffce85,#77e3b2,#ff506e);
+}
